@@ -1,0 +1,9 @@
+.select {
+    height: 1cm;
+    margin-left: 37%;
+    margin-top: 0.5cm;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    color: rgb(71, 78, 78);
+}

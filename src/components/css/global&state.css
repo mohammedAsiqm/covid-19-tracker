@@ -1,0 +1,77 @@
+.card{
+        width: 16rem;
+        padding: 0.4cm;
+        height: 13rem;
+        margin: 0.5cm;
+        background-color: rgb(211, 207, 203);
+        text-align: center;
+}
+
+
+.container{
+        padding: 0.3cm;
+        width: 70%;
+        margin: 1cm auto;
+        margin-left: 15vw !important;
+        margin-bottom: 1cm;
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(290px,0.1fr));
+      
+}
+
+
+
+.green {
+        color: rgb(6, 168, 6);
+}
+
+.blue {
+        color: blue;    
+}
+.red{
+        color: red;
+}
+.gray {
+        color: gray;
+}
+.bordergreen {
+        border-bottom: 5px solid rgb(6, 168, 6) !important;
+}
+.borderblue{
+        border-bottom: 5px solid blue !important;
+}
+.borderred{
+        border-bottom: 5px solid red !important;
+}
+
+
+
+.h1 {
+        text-align: center;
+        color: aliceblue;
+        margin-top: 0.4cm;
+}
+
+.image {
+        height: 14.4cm;
+        background-image: url('..//imgs//COVID-19.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+}
+
+
+h1 {
+        font-size: 32px !important;
+        font-weight: bold !important;
+}
+
+h3{
+        font-size: 18.72px !important;
+        font-weight: bold !important;
+}
+
+h5 {
+        font-size: 13.28px !important;
+        font-weight: bold !important;
+}

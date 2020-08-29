@@ -1,0 +1,99 @@
+.image1 {
+        width: 2cm;
+        position: relative;
+        top: 0.3cm;
+        left: 8cm;
+}
+
+.image2{
+        margin-top: -5cm;
+}
+
+.header {
+        position: relative;
+        background-color: aliceblue;
+}
+
+.tracker {
+        font-size: 01cm;
+        text-shadow: 2px 2px 3px rgb(56, 56, 56);
+        color: rgb(184, 123, 12);
+        position: absolute;
+        z-index: 1;
+        top: 0.6cm;
+        left: 1cm;
+}
+
+.btn1 {
+        background-color: rgb(126, 123, 118);
+        color: rgb(189, 191, 192);
+        width: 7cm;
+        height: 2.5cm;
+        text-align: center;
+        padding: 0.3cm;
+        margin: 1cm;
+        margin-left: 1.3cm;
+        outline: none !important;
+        border: none;
+        border-radius: 1cm;
+        cursor: pointer;
+        font-size: 20px;
+        transition:  .5s;
+}
+.section {
+        margin-top: -6cm;
+        margin-left: 20%;
+        padding-top: 0.5cm;
+        padding-bottom: 0.42cm;
+}
+
+.btn1:hover{
+        background-color: rgb(0, 255, 255);
+        color: darkcyan;
+}
+
+/* media query */
+
+@media screen and (max-width:892px){
+    .section {
+            margin-top: -4cm;
+            margin-left: 27%;
+    }
+    .image2{
+            margin-top: -3cm;
+    }
+    
+}
+
+@media screen and (max-width:600px){
+    .section {
+          margin-left: 13%;
+    }   
+}
+@media screen and (max-width:650px){
+    .image2{
+          margin-top: -1cm;
+    }   
+}
+@media screen and (max-width:500px){
+    .image2{
+          margin-top: 0cm;
+    }   
+    .section {
+          margin-top: -2cm;
+        
+    }
+}
+
+@media screen and (max-width:420px){
+
+    .section {
+          margin-left: 5%;
+    }
+}
+@media screen and (min-width:905px){
+
+    .section {
+          margin-left: 18%;
+    }
+}

@@ -1,0 +1,28 @@
+.home{
+    width: 10cm;
+    height: 1.7cm ;
+    font-size: 20px ;
+    text-align: center;
+    padding: 0.5cm !important;
+    position: relative;
+    top: -1cm;
+    margin-left: 33vw;
+    border-radius: 1cm;
+    border: none;
+    outline: none !important;
+    cursor: pointer;
+    background-color: green;
+    color: aliceblue;
+}
+
+.home:active{
+    background-color: wheat;
+    color: black;
+}
+
+
+@media screen and (max-width : 766px) {
+  .home {
+     margin-left: 10vw;
+    }
+}
