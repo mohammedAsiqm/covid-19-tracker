@@ -6,5 +6,5 @@ Languages used in this project :
       * css
       * React js
       
- Simple and easy covid-19 tracker.We can see global staus of covid and 
+ Simple and easy covid-19 tracker.We could see global staus of covid and 
  also State vice  status of covid. 
